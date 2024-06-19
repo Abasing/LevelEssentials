@@ -1,0 +1,135 @@
+name: LevelEssentials
+version: '1.0'
+main: me.zaming.levelessentials.LevelEssentials
+api-version: '1.20'
+author: Abasing and Zamin ali
+softdepend:
+  - PlaceholderAPI
+commands:
+  bracketcolor:
+    description: Set your bracket color.
+    usage: /bracketcolor <color>
+    permission: levelessentials.bracketcolor
+  brackets:
+    description: Set your bracket type.
+    usage: /brackets <angle|square|brace>
+    permission: levelessentials.brackets
+  levelcolor:
+    description: Set your level color.
+    usage: /levelcolor <color>
+    permission: levelessentials.levelcolor
+permissions:
+  levelessentials.bracketcolor:
+    description: Allows the use of /bracketcolor command
+    default: true
+  levelessentials.bracketcolor.Black:
+    description: Allows the use of the black bracket color
+    default: false
+  levelessentials.bracketcolor.DarkBlue:
+    description: Allows the use of the dark blue bracket color
+    default: false
+  levelessentials.bracketcolor.DarkGreen:
+    description: Allows the use of the dark green bracket color
+    default: false
+  levelessentials.bracketcolor.DarkAqua:
+    description: Allows the use of the dark aqua bracket color
+    default: false
+  levelessentials.bracketcolor.DarkRed:
+    description: Allows the use of the dark red bracket color
+    default: false
+  levelessentials.bracketcolor.DarkPurple:
+    description: Allows the use of the dark purple bracket color
+    default: false
+  levelessentials.bracketcolor.Gold:
+    description: Allows the use of the gold bracket color
+    default: false
+  levelessentials.bracketcolor.Gray:
+    description: Allows the use of the gray bracket color
+    default: false
+  levelessentials.bracketcolor.DarkGray:
+    description: Allows the use of the dark gray bracket color
+    default: false
+  levelessentials.bracketcolor.Blue:
+    description: Allows the use of the blue bracket color
+    default: false
+  levelessentials.bracketcolor.Green:
+    description: Allows the use of the green bracket color
+    default: false
+  levelessentials.bracketcolor.Aqua:
+    description: Allows the use of the aqua bracket color
+    default: false
+  levelessentials.bracketcolor.Red:
+    description: Allows the use of the red bracket color
+    default: false
+  levelessentials.bracketcolor.LightPurple:
+    description: Allows the use of the light purple bracket color
+    default: false
+  levelessentials.bracketcolor.Yellow:
+    description: Allows the use of the yellow bracket color
+    default: false
+  levelessentials.bracketcolor.White:
+    description: Allows the use of the white bracket color
+    default: false
+  levelessentials.brackets:
+    description: Allows the use of /brackets command
+    default: true
+  levelessentials.bracket.angle:
+    description: Allows the use of angle brackets
+    default: false
+  levelessentials.bracket.square:
+    description: Allows the use of square brackets
+    default: false
+  levelessentials.bracket.brace:
+    description: Allows the use of brace brackets
+    default: false
+  levelessentials.levelcolor:
+    description: Allows the use of /levelcolor command
+    default: true
+  levelessentials.levelcolor.Black:
+    description: Allows the use of the black level color
+    default: false
+  levelessentials.levelcolor.DarkBlue:
+    description: Allows the use of the dark blue level color
+    default: false
+  levelessentials.levelcolor.DarkGreen:
+    description: Allows the use of the dark green level color
+    default: false
+  levelessentials.levelcolor.DarkAqua:
+    description: Allows the use of the dark aqua level color
+    default: false
+  levelessentials.levelcolor.DarkRed:
+    description: Allows the use of the dark red level color
+    default: false
+  levelessentials.levelcolor.DarkPurple:
+    description: Allows the use of the dark purple level color
+    default: false
+  levelessentials.levelcolor.Gold:
+    description: Allows the use of the gold level color
+    default: false
+  levelessentials.levelcolor.Gray:
+    description: Allows the use of the gray level color
+    default: false
+  levelessentials.levelcolor.DarkGray:
+    description: Allows the use of the dark gray level color
+    default: false
+  levelessentials.levelcolor.Blue:
+    description: Allows the use of the blue level color
+    default: false
+  levelessentials.levelcolor.Green:
+    description: Allows the use of the green level color
+    default: false
+  levelessentials.levelcolor.Aqua:
+    description: Allows the use of the aqua level color
+    default: false
+  levelessentials.levelcolor.Red:
+    description: Allows the use of the red level color
+    default: false
+  levelessentials.levelcolor.LightPurple:
+    description: Allows the use of the light purple level color
+    default: false
+  levelessentials.levelcolor.Yellow:
+    description: Allows the use of the yellow level color
+    default: false
+  levelessentials.levelcolor.White:
+    description: Allows the use of the white level color
+    default: false
