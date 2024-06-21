@@ -1,0 +1,5 @@
+defaults:
+  bracket_left: "["
+  bracket_right: "]"
+  bracket_color: "§7"
+  level_color: "§7"

@@ -1,8 +1,10 @@
 name: LevelEssentials
 version: '${project.version}'
-main: me.zaming.levelessentials.LevelEssentials
+main: me.abasing.levelessentials.LevelEssentials
 api-version: '1.20'
-author: Abasing and Zamin ali
+authors:
+  - Abasing
+  - Zamin ali
 softdepend:
   - PlaceholderAPI
 commands:
@@ -18,6 +20,9 @@ commands:
     description: Set your level color.
     usage: /levelcolor <color>
     permission: levelessentials.levelcolor
+  levelessentials:
+    description: Reload the files.
+    usage: /levelessentials reload [-a]
 permissions:
   levelessentials.bracketcolor:
     description: Allows the use of /bracketcolor command
