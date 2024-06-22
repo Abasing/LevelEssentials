@@ -1,5 +1,12 @@
-defaults:
-  bracket_left: "["
-  bracket_right: "]"
-  bracket_color: "§7"
-  level_color: "§7"
+bracketcolor: "§f"
+levelcolor: "§f"
+brackets:
+  left: "<"
+  right: ">"
+  bold: false
+  italic: false
+  underline: false
+level:
+  bold: false
+  italic: false
+  underline: false

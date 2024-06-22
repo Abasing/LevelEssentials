@@ -21,8 +21,10 @@ commands:
     usage: /levelcolor <color>
     permission: levelessentials.levelcolor
   levelessentials:
-    description: Reload the files.
-    usage: /levelessentials reload [-a]
+    description: Manage LevelEssentials settings.
+    usage: /levelessentials <subcommand> <type>
+    aliases: [le]
+    permission: levelessentials.manage
 permissions:
   levelessentials.bracketcolor:
     description: Allows the use of /bracketcolor command
@@ -138,3 +140,21 @@ permissions:
   levelessentials.levelcolor.White:
     description: Allows the use of the white level color
     default: false
+  levelessentials.level.bold:
+    description: Allows the use of bold format for level
+    default: false
+  levelessentials.brackets.bold:
+    description: Allows the use of bold format for brackets
+    default: false
+  levelessentials.level.italic:
+    description: Allows the use of italic format for level
+    default: false
+  levelessentials.brackets.italic:
+    description: Allows the use of italic format for brackets
+    default: false
+  levelessentials.level.underline:
+    description: Allows the use of underline format for level
+    default: false
+  levelessentials.manage:
+    description: Allows the use of /levelessentials commands
+    default: true
