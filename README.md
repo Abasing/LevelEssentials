@@ -124,6 +124,6 @@ levelessentials.bracket.<type> - Allows changing the bracket type to the specifi
 
 ## Support
 
-For any issues, suggestions, or help, please visit our [Github page](https://github.com/yourgithub) or join our [Discord server](https://discord.gg/yourdiscord).
+For any issues, suggestions, or help, please visit join our [Discord server](https://discord.gg/5ufJS4zvkx).
 
 [**Buy me a coffee!**](https://buymeacoffe.com/would)
