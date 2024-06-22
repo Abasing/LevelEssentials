@@ -32,6 +32,11 @@ You can use LevelEssentials with any leveling plugin. If used correctly, it will
 /levelcolor <color> - Change the color of your level.
 /brackets <type> - Change the type of your brackets.
 /levelessentials reload [-a] - Reload the plugin configuration. Use -a to reload all files including player data.
+/levelessentials bold brackets - Toggles bold formatting for brackets.
+/levelessentials bold level - Toggles bold formatting for levels.
+/levelessentials italic brackets - Toggles italic formatting for brackets.
+/levelessentials italic level - Toggles italic formatting for levels.
+/levelessentials underline level - Toggles underline formatting for levels.
 ```
 
 ## Permissions
@@ -91,6 +96,18 @@ levelessentials.bracket.<type> - Allows changing the bracket type to the specifi
   levelessentials.levelcolor.yellow
   levelessentials.levelcolor.white
   ```
+  ### Formating
+  ```
+  levelessentials.level.bold
+  levelessentials.brackets.bold
+  levelessentials.level.italic
+  levelessentials.brackets.italic
+  levelessentials.level.underline
+  ```
+  ### Admin
+  ```
+  levelessentials.manage
+  ```
 </details>
 
 <details>
@@ -101,6 +118,12 @@ levelessentials.bracket.<type> - Allows changing the bracket type to the specifi
   Right Bracket: %levelessentials_rightbracket%
   Bracket Color: %levelessentials_bracketcolor%
   Level Color: %levelessentials_levelcolor%
+
+  %levelessentials_brackets_bold%: Returns whether brackets are bold.
+  %levelessentals_level_bold%: Returns whether the level is bold.
+  %levelessentials_level_italic%: Returns whether the level is italic.
+  %levelessentials_brackets_italic%: Returns whether brackets are italic.
+  %levelessentials_level_underline%: Returns whether the level has underline.
   ```
 </details>
 
